@@ -6,6 +6,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+from WebScrapper import Scrapper
 
 
 def print_hi(name):
@@ -21,3 +22,6 @@ if __name__ == '__main__':
 
 print ("Hello Py")
 print ("Environment has been set")
+
+myObj = Scrapper()
+value = myObj.login()
